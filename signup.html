@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Subscription App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="form-container">
+        <h3>Create Account</h3>
+        <form id="signup-form">
+          <div class="input-group">
+            <label for="signup-name">Name</label>
+            <input
+              type="text"
+              id="signup-name"
+              placeholder="Manoj kumar"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="signup-email">Email</label>
+            <input
+              type="email"
+              id="signup-email"
+              placeholder="manoj@richpanel.com"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="signup-password">Password</label>
+            <input
+              type="password"
+              id="signup-password"
+              placeholder="..........."
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label>
+              <input type="checkbox" id="signup-remember-me" /> <span>Remember
+                me</span> </label>
+          </div>
+          <button class="btn" type="submit">Sign Up</button>
+        </form>
+
+        <p class="switch-link">
+          Already have an account? <a href="login.html">Login</a>
+        </p>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
